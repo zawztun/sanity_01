@@ -33,7 +33,7 @@
         marks: {
           // Decorators usually describe a single property – e.g. a typographic
           // preference or highlighting by editors.
-          decorators: [{title: 'Strong', value: 'strong'}, {title: 'Emphasis', value: 'em'}],
+          decorators: [{title: 'Strong', value: 'strong'}, {title: 'Emphasis', value: 'em'},{title: "Code", value: "code" },],
           // Annotations can be any object structure – e.g. a link or a footnote.
           annotations: [
             {
@@ -57,6 +57,9 @@
       {
         type: 'image',
         options: {hotspot: true}
+      },
+      {
+        type: 'code'
       }
     ]
   }
